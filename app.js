@@ -7,14 +7,5 @@ app.listen(process.env.PORT || 3000, () => {
 });
 
 app.get('/', (req, res) => {
-    res.send(`Yayyy! It's working`);
-});
-
-require('dotenv').config(); 
-
-app.use(express.urlencoded({ extended: false }));
-
-mongoose.connect(process.env.SERVER, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
+    res.send(`Yayy! It's working`);
 });
