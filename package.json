@@ -9,5 +9,23 @@
     "mongoose": "^7.0.3",
     "multer": "^1.4.5-lts.1",
     "nodemon": "^2.0.22"
-  }
+  },
+  "name": "notepad",
+  "version": "1.0.0",
+  "description": "this is for note taking",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codesantaisai/Note_Pad.git"
+  },
+  "author": "codesantaisai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codesantaisai/Note_Pad/issues"
+  },
+  "homepage": "https://github.com/codesantaisai/Note_Pad#readme"
 }
